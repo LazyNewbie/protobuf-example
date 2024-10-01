@@ -1,0 +1,18 @@
+{
+    "name": "alexey/protobuf",
+    "authors": [
+        {
+            "name": "AlexeyAtroshenko",
+            "email": "alexey@exads.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "^4.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "generated/php/GPBMetadata",
+            "Main\\": "generated/php/Main"
+        }
+    }
+}

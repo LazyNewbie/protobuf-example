@@ -1,0 +1,17 @@
+syntax = "proto3";
+package main;
+option go_package ="main/example";
+
+
+
+message Event {
+
+  int32 date = 1;
+  int32 time = 2;
+  string country = 3;
+  int32 idLanguage = 4;
+  string siteHostName = 5;
+  int32 idAdvertiser = 6;
+
+}
+
