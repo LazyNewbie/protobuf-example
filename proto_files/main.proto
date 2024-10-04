@@ -3,7 +3,6 @@ package main;
 option go_package ="main/example";
 
 
-
 message Event {
 
   int32 date = 1;

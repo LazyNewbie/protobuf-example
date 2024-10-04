@@ -1,0 +1,37 @@
+{
+  "type": "record",
+  "name": "Event",
+  "namespace": "exads.avro",
+  "fields": [
+    {
+      "name": "date",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "time",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "idLanguage",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "siteHostName",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "idAdvertiser",
+      "type": "int",
+      "default": 0
+    }
+  ]
+}
